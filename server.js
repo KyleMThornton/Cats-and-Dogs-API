@@ -1,6 +1,7 @@
+import catFacts from './catFacts';
+
 const express = require('express');
 const app = express();
-
 const PORT = 4001;
 
 app.get('/cat', (req, res, next) => {
